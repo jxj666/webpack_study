@@ -1,0 +1,5 @@
+*.zip
+node_modules/
+*.ini
+public/
+dist/
