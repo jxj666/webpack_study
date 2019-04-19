@@ -4,7 +4,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: 靳肖健
  * @Date: 2019-04-18 16:54:51
- * @LastEditTime: 2019-04-19 12:38:51
+ * @LastEditTime: 2019-04-19 15:05:34
  */
 
 // // *版本1
@@ -27,7 +27,7 @@ import GreeterCss from "./Greeter.css";
 
 class Greeter extends Component {
   render() {
-    return <div className={GreeterCss.root}>{config.greetText}</div>;
+    return <div className={GreeterCss.root}>'{config.greetText}'</div>;
   }
 }
 
