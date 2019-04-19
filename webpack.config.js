@@ -4,7 +4,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: 靳肖健
  * @Date: 2019-04-18 17:32:54
- * @LastEditTime: 2019-04-19 11:30:18
+ * @LastEditTime: 2019-04-19 12:38:25
  */
 module.exports = {
   entry: __dirname + "/app/main.js",
@@ -38,6 +38,10 @@ module.exports = {
           },
           {
             loader: "css-loader",
+            options: {
+              modules: true,
+              localIdentName: "[name]__[local]--[hash:base64:5]",
+            },
           },
         ],
       },

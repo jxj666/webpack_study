@@ -1,0 +1,7 @@
+/* Greeter.css */
+.root {
+  background-color: #eee;
+  padding: 1vw;
+  border: 1vw solid #ccc;
+  border-radius: 5vw;
+}
